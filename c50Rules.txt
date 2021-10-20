@@ -1,0 +1,1062 @@
+
+Call:
+C5.0.formula(formula = responded ~ ., data = train, trials = 100, rules = TRUE)
+
+
+C5.0 [Release 2.07 GPL Edition]  	Fri Nov 13 14:18:35 2020
+-------------------------------
+
+Class specified by attribute `outcome'
+
+Read 5932 cases (17 attributes) from undefined.data
+
+-----  Trial 0:  -----
+
+Rules:
+
+Rule 0/1: (5060/371, lift 1.0)
+	custAge <= 0.5899602
+	month = 3
+	cons.conf.idx <= 0.6150628
+	->  class 1  [0.927]
+
+Rule 0/2: (5727/536, lift 1.0)
+	poutcome in {1, 2}
+	->  class 1  [0.906]
+
+Rule 0/3: (5, lift 7.6)
+	marital = 1
+	schooling = 2
+	poutcome = 3
+	->  class 2  [0.857]
+
+Rule 0/4: (125/34, lift 6.4)
+	schooling = 1
+	poutcome = 3
+	->  class 2  [0.724]
+
+Rule 0/5: (37/11, lift 6.1)
+	custAge <= 0.2210831
+	month = 2
+	cons.conf.idx <= 0.6150628
+	pastEmail <= 0
+	->  class 2  [0.692]
+
+Rule 0/6: (205/69, lift 5.8)
+	poutcome = 3
+	->  class 2  [0.662]
+
+Rule 0/7: (58/23, lift 5.3)
+	custAge <= 0.2210831
+	month = 2
+	cons.conf.idx <= 0.6150628
+	->  class 2  [0.600]
+
+Default class: 1
+
+-----  Trial 1:  -----
+
+Rules:
+
+Rule 1/1: (3425.6/513.7, lift 1.2)
+	nr.employed > 0.5122873
+	->  class 1  [0.850]
+
+Rule 1/2: (4777.9/984.1, lift 1.1)
+	custAge > 0.06182496
+	nr.employed > 0.4257089
+	->  class 1  [0.794]
+
+Rule 1/3: (26.8/4.7, lift 2.8)
+	custAge <= 0.06182496
+	nr.employed > 0.4257089
+	nr.employed <= 0.5122873
+	->  class 2  [0.803]
+
+Rule 1/4: (1111.9/414.3, lift 2.2)
+	nr.employed <= 0.4257089
+	->  class 2  [0.627]
+
+Default class: 1
+
+-----  Trial 2:  -----
+
+Rules:
+
+Rule 2/1: (947.4/216, lift 1.1)
+	default = 2
+	->  class 1  [0.771]
+
+Rule 2/2: (5418.3/1630.5, lift 1.0)
+	month in {2, 3}
+	->  class 1  [0.699]
+
+Rule 2/3: (29/3.9, lift 2.6)
+	month = 2
+	nr.employed > 0.5122873
+	->  class 2  [0.843]
+
+Rule 2/4: (96.7/21.9, lift 2.3)
+	contact = 1
+	campaign <= 0.07692308
+	poutcome in {2, 3}
+	euribor3m <= 0.01654954
+	pmonths > 0.0001001001
+	->  class 2  [0.768]
+
+Rule 2/5: (49.9/11.7, lift 2.3)
+	profession = 3
+	marital = 2
+	contact = 1
+	campaign <= 0.07692308
+	poutcome in {2, 3}
+	cons.conf.idx <= 0.6150628
+	euribor3m > 0.01654954
+	nr.employed <= 0.5122873
+	pmonths > 0.0001001001
+	->  class 2  [0.756]
+
+Rule 2/6: (513.7/205.7, lift 1.8)
+	month = 1
+	->  class 2  [0.599]
+
+Default class: 1
+
+-----  Trial 3:  -----
+
+Rules:
+
+Rule 3/1: (12.9, lift 1.5)
+	schooling = 3
+	month in {2, 3}
+	cons.conf.idx <= 0.1924686
+	euribor3m <= 0.1718431
+	->  class 1  [0.933]
+
+Rule 3/2: (3326.4/941.2, lift 1.2)
+	month in {1, 3}
+	euribor3m > 0.1718431
+	->  class 1  [0.717]
+
+Rule 3/3: (5830.8/2224.1, lift 1.0)
+	custAge > 0.06992903
+	->  class 1  [0.619]
+
+Rule 3/4: (32.1/9.2, lift 1.8)
+	campaign <= 0.1282051
+	poutcome = 1
+	pmonths <= 0.000333667
+	->  class 2  [0.702]
+
+Rule 3/5: (73.2/21.8, lift 1.8)
+	profession in {3, 4}
+	contact = 1
+	poutcome in {2, 3}
+	cons.conf.idx > 0.7447699
+	->  class 2  [0.697]
+
+Rule 3/6: (98.5/32.3, lift 1.7)
+	month = 2
+	euribor3m > 0.1718431
+	->  class 2  [0.669]
+
+Rule 3/7: (1284.6/521, lift 1.5)
+	contact = 1
+	campaign <= 0.1282051
+	poutcome in {2, 3}
+	cons.conf.idx <= 0.7447699
+	euribor3m <= 0.1718431
+	->  class 2  [0.594]
+
+Rule 3/8: (2507.1/1226.1, lift 1.3)
+	euribor3m <= 0.1718431
+	->  class 2  [0.511]
+
+Default class: 1
+
+-----  Trial 4:  -----
+
+Rules:
+
+Rule 4/1: (69.7/10.7, lift 1.4)
+	month = 3
+	campaign > 0.2051282
+	euribor3m <= 0.9820902
+	->  class 1  [0.837]
+
+Rule 4/2: (1301.4/353.8, lift 1.2)
+	custAge > 0.05263158
+	month = 3
+	euribor3m > 0.1478123
+	euribor3m <= 0.9573793
+	->  class 1  [0.728]
+
+Rule 4/3: (1228.8/351.5, lift 1.2)
+	schooling in {1, 2}
+	contact = 2
+	month = 3
+	nr.employed > 0.4257089
+	->  class 1  [0.714]
+
+Rule 4/4: (5699.1/2216.7, lift 1.0)
+	schooling in {1, 2}
+	->  class 1  [0.611]
+
+Rule 4/5: (28.9/6.1, lift 1.9)
+	schooling = 3
+	month = 1
+	nr.employed > 0.4257089
+	->  class 2  [0.770]
+
+Rule 4/6: (47.3/11.5, lift 1.9)
+	custAge <= 0.5448355
+	schooling in {1, 2}
+	euribor3m > 0.1432782
+	nr.employed <= 0.4257089
+	->  class 2  [0.746]
+
+Rule 4/7: (71.3/24.1, lift 1.7)
+	nr.employed > 0.226465
+	nr.employed <= 0.4257089
+	pmonths <= 0.0007340674
+	->  class 2  [0.657]
+
+Rule 4/8: (87/30.6, lift 1.6)
+	schooling = 3
+	nr.employed <= 0.4257089
+	->  class 2  [0.645]
+
+Rule 4/9: (144.2/52.5, lift 1.6)
+	schooling in {1, 2}
+	month = 1
+	euribor3m <= 0.167309
+	->  class 2  [0.634]
+
+Rule 4/10: (481.6/179.6, lift 1.6)
+	custAge > 0.2294762
+	nr.employed > 0
+	nr.employed <= 0.226465
+	->  class 2  [0.626]
+
+Rule 4/11: (78.7/29.6, lift 1.6)
+	custAge <= 0.05263158
+	->  class 2  [0.621]
+
+Rule 4/12: (123.3/50.6, lift 1.5)
+	custAge > 0.05263158
+	custAge <= 0.5308123
+	profession in {1, 2, 4}
+	campaign <= 0.1025641
+	poutcome in {1, 3}
+	euribor3m <= 0.1478123
+	nr.employed > 0.4257089
+	->  class 2  [0.589]
+
+Rule 4/13: (103.3/45.5, lift 1.4)
+	month = 2
+	nr.employed > 0.4257089
+	->  class 2  [0.558]
+
+Rule 4/14: (73.4/33.1, lift 1.4)
+	custAge <= 0.5308123
+	profession in {1, 2, 4}
+	schooling = 3
+	euribor3m > 0.9573793
+	->  class 2  [0.548]
+
+Rule 4/15: (314.8/149, lift 1.3)
+	custAge > 0.05263158
+	custAge <= 0.5308123
+	campaign <= 0.1025641
+	euribor3m > 0.1419179
+	euribor3m <= 0.1478123
+	nr.employed > 0.4257089
+	->  class 2  [0.526]
+
+Default class: 1
+
+-----  Trial 5:  -----
+
+Rules:
+
+Rule 5/1: (29.6, lift 1.7)
+	profession in {3, 4}
+	contact = 2
+	campaign > 0
+	nr.employed > 0.1705104
+	->  class 1  [0.968]
+
+Rule 5/2: (101.3/26.2, lift 1.3)
+	contact = 1
+	pmonths > 0.0007340674
+	pastEmail > 0.1666667
+	->  class 1  [0.737]
+
+Rule 5/3: (4965.7/1999, lift 1.0)
+	month in {1, 3}
+	pmonths > 0.0007340674
+	->  class 1  [0.597]
+
+Rule 5/4: (33.4/3.1, lift 2.1)
+	contact = 2
+	month in {1, 3}
+	campaign > 0
+	nr.employed <= 0.1705104
+	pmonths > 0.0007340674
+	->  class 2  [0.884]
+
+Rule 5/5: (6.3/0.4, lift 1.9)
+	profession = 4
+	marital = 1
+	->  class 2  [0.829]
+
+Rule 5/6: (66/17.5, lift 1.7)
+	profession in {2, 3}
+	schooling = 1
+	default = 1
+	month = 3
+	campaign <= 0.02564103
+	cons.conf.idx > 0.6778243
+	pastEmail <= 0.1666667
+	->  class 2  [0.728]
+
+Rule 5/7: (223/74.3, lift 1.6)
+	custAge <= 0.3026317
+	profession = 1
+	marital = 3
+	schooling = 1
+	contact = 1
+	month in {1, 3}
+	pmonths > 0.0007340674
+	pastEmail <= 0.1666667
+	->  class 2  [0.665]
+
+Rule 5/8: (108.9/40.2, lift 1.5)
+	marital = 1
+	default = 1
+	contact = 1
+	month = 3
+	euribor3m <= 0.1437316
+	pastEmail <= 0.1666667
+	->  class 2  [0.629]
+
+Rule 5/9: (93/35.5, lift 1.4)
+	profession in {1, 2}
+	schooling in {1, 2}
+	default = 1
+	contact = 2
+	campaign > 0.07692308
+	campaign <= 0.1538462
+	cons.conf.idx > 0.3389121
+	->  class 2  [0.615]
+
+Rule 5/10: (203.3/78.7, lift 1.4)
+	custAge > 0.2993509
+	custAge <= 0.4780702
+	profession in {2, 3}
+	marital = 2
+	schooling = 1
+	default = 1
+	campaign <= 0.02564103
+	cons.price.idx <= 0.4844115
+	cons.conf.idx <= 0.6778243
+	pmonths > 0.0007340674
+	pastEmail <= 0.1666667
+	->  class 2  [0.612]
+
+Rule 5/11: (312.5/131.7, lift 1.4)
+	custAge <= 0.4342105
+	marital = 2
+	default = 1
+	contact = 1
+	month in {1, 3}
+	cons.price.idx > 0.4844115
+	pastEmail <= 0.1666667
+	->  class 2  [0.578]
+
+Rule 5/12: (299.1/132.4, lift 1.3)
+	month in {1, 3}
+	pmonths <= 0.0007340674
+	->  class 2  [0.557]
+
+Rule 5/13: (667.2/302.2, lift 1.3)
+	month = 2
+	->  class 2  [0.547]
+
+Rule 5/14: (374.2/179.4, lift 1.2)
+	marital = 2
+	default = 1
+	contact = 1
+	month in {1, 3}
+	cons.price.idx > 0.4844115
+	pastEmail <= 0.1666667
+	->  class 2  [0.520]
+
+Default class: 1
+
+-----  Trial 6:  -----
+
+Rules:
+
+Rule 6/1: (108.1/29.1, lift 1.3)
+	campaign > 0.1025641
+	nr.employed <= 0.5122873
+	->  class 1  [0.726]
+
+Rule 6/2: (2662.9/987.3, lift 1.1)
+	nr.employed > 0.5122873
+	->  class 1  [0.629]
+
+Rule 6/3: (5553.5/2371.1, lift 1.0)
+	campaign <= 0.1025641
+	->  class 1  [0.573]
+
+Rule 6/4: (78.3/20.9, lift 1.7)
+	custAge > 0.2098441
+	custAge <= 0.4929006
+	profession = 2
+	campaign <= 0.1025641
+	euribor3m > 0.1586942
+	euribor3m <= 0.167309
+	pmonths > 0.0007340674
+	->  class 2  [0.727]
+
+Rule 6/5: (42.3/13.5, lift 1.6)
+	custAge <= 0.2098441
+	campaign <= 0.1025641
+	previous > 0.3333333
+	->  class 2  [0.673]
+
+Rule 6/6: (312.5/105.7, lift 1.6)
+	custAge <= 0.2098441
+	month in {1, 2}
+	campaign <= 0.1025641
+	poutcome = 2
+	->  class 2  [0.661]
+
+Rule 6/7: (170.5/59.8, lift 1.5)
+	custAge <= 0.2098441
+	campaign <= 0.1025641
+	poutcome = 2
+	euribor3m > 0.1423713
+	euribor3m <= 0.1478123
+	->  class 2  [0.647]
+
+Rule 6/8: (45.8/17.5, lift 1.4)
+	custAge <= 0.4929006
+	profession = 2
+	cons.price.idx <= 0
+	pmonths > 0.0007340674
+	->  class 2  [0.613]
+
+Rule 6/9: (526.6/224, lift 1.4)
+	profession in {1, 3, 4}
+	contact = 1
+	campaign <= 0.1025641
+	cons.price.idx > 0.2696804
+	euribor3m > 0.01995013
+	nr.employed <= 0.5122873
+	pmonths > 0.0007340674
+	pastEmail <= 0.1666667
+	->  class 2  [0.574]
+
+Default class: 1
+
+-----  Trial 7:  -----
+
+Rules:
+
+Rule 7/1: (29.3/5.4, lift 1.4)
+	euribor3m > 0.05100884
+	pmonths > 0.0007340674
+	pastEmail > 0.2222222
+	->  class 1  [0.796]
+
+Rule 7/2: (111.6/28.9, lift 1.3)
+	custAge > 0.2649232
+	marital = 3
+	contact = 1
+	euribor3m > 0.05100884
+	pmonths > 0.0007340674
+	->  class 1  [0.737]
+
+Rule 7/3: (55.7/18, lift 1.2)
+	campaign > 0.05128205
+	pmonths <= 0.0007340674
+	->  class 1  [0.671]
+
+Rule 7/4: (348.1/119.8, lift 1.2)
+	marital = 3
+	contact = 2
+	euribor3m > 0.05100884
+	->  class 1  [0.655]
+
+Rule 7/5: (508.3/198, lift 1.1)
+	marital = 1
+	euribor3m > 0.05100884
+	pmonths > 0.0007340674
+	->  class 1  [0.610]
+
+Rule 7/6: (2828/1175, lift 1.1)
+	marital = 2
+	euribor3m > 0.05100884
+	pmonths > 0.0007340674
+	->  class 1  [0.584]
+
+Rule 7/7: (31.2/7.3, lift 1.7)
+	marital = 2
+	euribor3m > 0.05644979
+	euribor3m <= 0.05939696
+	pmonths > 0.0007340674
+	pastEmail <= 0.2222222
+	->  class 2  [0.749]
+
+Rule 7/8: (64.7/19.6, lift 1.5)
+	marital = 2
+	schooling = 1
+	month = 2
+	euribor3m > 0.05644979
+	->  class 2  [0.691]
+
+Rule 7/9: (90/32.5, lift 1.4)
+	custAge <= 0.5065646
+	profession = 2
+	marital = 2
+	schooling = 1
+	campaign > 0.1282051
+	->  class 2  [0.636]
+
+Rule 7/10: (316.6/124.1, lift 1.4)
+	custAge <= 0.4263047
+	marital = 2
+	schooling = 2
+	month in {1, 3}
+	campaign > 0
+	campaign <= 0.1025641
+	pmonths > 0.0007340674
+	->  class 2  [0.607]
+
+Rule 7/11: (420.7/167.9, lift 1.3)
+	default = 1
+	campaign <= 0.05128205
+	pmonths <= 0.0007340674
+	->  class 2  [0.600]
+
+Rule 7/12: (246.5/101.5, lift 1.3)
+	custAge <= 0.5065646
+	profession = 2
+	marital = 2
+	schooling = 1
+	default = 1
+	contact = 2
+	campaign > 0
+	poutcome = 2
+	->  class 2  [0.588]
+
+Rule 7/13: (603.3/274, lift 1.2)
+	euribor3m <= 0.05100884
+	pmonths > 0.0007340674
+	->  class 2  [0.546]
+
+Rule 7/14: (1100.4/529.4, lift 1.2)
+	custAge <= 0.2649232
+	marital = 3
+	contact = 1
+	euribor3m > 0.05100884
+	pastEmail <= 0.2222222
+	->  class 2  [0.519]
+
+Default class: 1
+
+-----  Trial 8:  -----
+
+Rules:
+
+Rule 8/1: (89/29.7, lift 1.2)
+	cons.conf.idx > 0.8117155
+	pmonths <= 0.0007340674
+	->  class 1  [0.663]
+
+Rule 8/2: (5120.7/2136.9, lift 1.0)
+	euribor3m > 0.0228973
+	pmonths > 0.0007340674
+	->  class 1  [0.583]
+
+Rule 8/3: (483.9/225.7, lift 1.2)
+	pmonths <= 0.0007340674
+	->  class 2  [0.534]
+
+Rule 8/4: (327.4/152.5, lift 1.2)
+	euribor3m <= 0.0228973
+	pmonths > 0.0007340674
+	->  class 2  [0.534]
+
+Default class: 1
+
+-----  Trial 9:  -----
+
+Rules:
+
+Rule 9/1: (2579.8/1108.4, lift 1.1)
+	nr.employed > 0.5122873
+	->  class 1  [0.570]
+
+Rule 9/2: (5177.3/2345, lift 1.0)
+	custAge <= 0.4534932
+	->  class 1  [0.547]
+
+Rule 9/3: (553.9/245.9, lift 1.2)
+	custAge > 0.4534932
+	nr.employed <= 0.5122873
+	->  class 2  [0.556]
+
+Default class: 1
+
+-----  Trial 10:  -----
+
+Rules:
+
+Rule 10/1: (25.8/7.9, lift 1.3)
+	default = 2
+	pmonths <= 0.0007340674
+	->  class 1  [0.681]
+
+Rule 10/2: (58.2/19.5, lift 1.3)
+	campaign > 0.05128205
+	pmonths <= 0.0007340674
+	->  class 1  [0.660]
+
+Rule 10/3: (5425.4/2563.9, lift 1.0)
+	pmonths > 0.0007340674
+	->  class 1  [0.527]
+
+Rule 10/4: (292.5/108.9, lift 1.3)
+	profession in {1, 2, 4}
+	month = 3
+	poutcome = 2
+	cons.conf.idx <= 0.4518828
+	nr.employed <= 0.4257089
+	->  class 2  [0.627]
+
+Rule 10/5: (143.7/58.7, lift 1.2)
+	profession = 1
+	campaign > 0.05128205
+	campaign <= 0.07692308
+	poutcome = 2
+	->  class 2  [0.590]
+
+Rule 10/6: (426.3/186.7, lift 1.2)
+	default = 1
+	campaign <= 0.05128205
+	pmonths <= 0.0007340674
+	->  class 2  [0.562]
+
+Rule 10/7: (845/385.9, lift 1.1)
+	marital in {2, 3}
+	month in {1, 2}
+	poutcome = 2
+	->  class 2  [0.543]
+
+Default class: 1
+
+-----  Trial 11:  -----
+
+Rules:
+
+Rule 11/1: (62.6/16.2, lift 1.4)
+	profession = 2
+	cons.conf.idx > 0.8786611
+	->  class 1  [0.734]
+
+Rule 11/2: (121.8/41.7, lift 1.3)
+	profession = 1
+	schooling = 2
+	campaign <= 0.05128205
+	poutcome = 2
+	cons.price.idx > 0
+	cons.price.idx <= 0.2696804
+	->  class 1  [0.655]
+
+Rule 11/3: (566.8/198.9, lift 1.2)
+	profession = 1
+	marital in {2, 3}
+	schooling = 1
+	cons.conf.idx > 0.1924686
+	->  class 1  [0.648]
+
+Rule 11/4: (355.2/154.1, lift 1.1)
+	profession = 2
+	poutcome = 1
+	->  class 1  [0.566]
+
+Rule 11/5: (5748.7/2777.5, lift 1.0)
+	cons.conf.idx <= 0.8786611
+	->  class 1  [0.517]
+
+Rule 11/6: (16.4/1.4, lift 1.8)
+	profession = 1
+	schooling = 1
+	month = 2
+	cons.conf.idx <= 0.1924686
+	->  class 2  [0.869]
+
+Rule 11/7: (60.9/12.8, lift 1.6)
+	custAge > 0.131579
+	profession = 1
+	schooling = 2
+	poutcome = 2
+	cons.price.idx > 0.2696804
+	cons.price.idx <= 0.6691349
+	euribor3m <= 0.1419179
+	->  class 2  [0.781]
+
+Rule 11/8: (57.7/17.1, lift 1.5)
+	profession = 1
+	schooling = 2
+	cons.price.idx <= 0
+	->  class 2  [0.698]
+
+Rule 11/9: (167.3/56, lift 1.4)
+	profession = 1
+	marital = 3
+	schooling = 1
+	campaign <= 0.1025641
+	cons.conf.idx <= 0.1924686
+	->  class 2  [0.663]
+
+Rule 11/10: (83.1/28.3, lift 1.4)
+	profession = 1
+	marital = 1
+	schooling = 1
+	campaign <= 0.1025641
+	cons.conf.idx > 0.1924686
+	->  class 2  [0.655]
+
+Rule 11/11: (365.1/144.5, lift 1.3)
+	custAge <= 0.3158203
+	profession = 1
+	schooling = 2
+	default = 1
+	campaign <= 0.05128205
+	poutcome = 2
+	cons.price.idx > 0.2696804
+	cons.price.idx <= 0.6691349
+	->  class 2  [0.603]
+
+Rule 11/12: (172.6/74.8, lift 1.2)
+	profession = 2
+	poutcome = 3
+	cons.conf.idx <= 0.8786611
+	->  class 2  [0.566]
+
+Rule 11/13: (220.7/101.9, lift 1.1)
+	profession = 4
+	->  class 2  [0.538]
+
+Rule 11/14: (254.4/120.5, lift 1.1)
+	schooling = 3
+	->  class 2  [0.526]
+
+Rule 11/15: (1771.3/863.6, lift 1.1)
+	custAge <= 0.4929006
+	profession = 2
+	schooling = 1
+	month = 3
+	poutcome = 2
+	->  class 2  [0.512]
+
+Rule 11/16: (2228.4/1111.4, lift 1.0)
+	profession = 2
+	month = 3
+	poutcome = 2
+	->  class 2  [0.501]
+
+Default class: 1
+
+-----  Trial 12:  -----
+
+Rules:
+
+Rule 12/1: (1905/783, lift 1.1)
+	schooling in {1, 3}
+	month = 3
+	nr.employed > 0.5122873
+	->  class 1  [0.589]
+
+Rule 12/2: (2020.4/858.7, lift 1.1)
+	default = 1
+	month = 3
+	nr.employed > 0.5122873
+	->  class 1  [0.575]
+
+Rule 12/3: (3335/1642.8, lift 1.0)
+	nr.employed <= 0.5122873
+	->  class 1  [0.507]
+
+Rule 12/4: (37.3/8.4, lift 1.6)
+	profession in {1, 2, 4}
+	month = 2
+	nr.employed > 0.5122873
+	->  class 2  [0.760]
+
+Rule 12/5: (44.1/11, lift 1.6)
+	custAge <= 0.1319727
+	schooling = 2
+	default = 1
+	nr.employed > 0.5122873
+	->  class 2  [0.740]
+
+Rule 12/6: (97/38.2, lift 1.3)
+	profession in {1, 2, 4}
+	schooling = 2
+	default = 2
+	nr.employed > 0.5122873
+	->  class 2  [0.604]
+
+Default class: 1
+
+-----  Trial 13:  -----
+
+Rules:
+
+Rule 13/1: (102.6/36.8, lift 1.2)
+	campaign > 0.1025641
+	nr.employed <= 0.5122873
+	->  class 1  [0.638]
+
+Rule 13/2: (2584.9/1140.5, lift 1.1)
+	nr.employed > 0.5122873
+	->  class 1  [0.559]
+
+Rule 13/3: (3244.5/1556.9, lift 1.1)
+	campaign <= 0.1025641
+	nr.employed <= 0.5122873
+	->  class 2  [0.520]
+
+Default class: 1
+
+-----  Trial 14:  -----
+
+Rules:
+
+Rule 14/1: (17.6, lift 1.8)
+	euribor3m > 0.1609612
+	pmonths > 0.0001001001
+	pmonths <= 0.0007340674
+	->  class 1  [0.949]
+
+Rule 14/2: (176.1/74.9, lift 1.1)
+	pmonths <= 0.0001001001
+	->  class 1  [0.574]
+
+Rule 14/3: (5428.9/2551.1, lift 1.0)
+	pmonths > 0.0007340674
+	->  class 1  [0.530]
+
+Rule 14/4: (58.5/13.7, lift 1.6)
+	profession in {1, 2, 4}
+	contact = 2
+	month in {1, 2}
+	poutcome = 2
+	cons.conf.idx > 0.3389121
+	nr.employed > 0.1058601
+	->  class 2  [0.758]
+
+Rule 14/5: (44/13.6, lift 1.4)
+	contact = 2
+	poutcome = 1
+	cons.conf.idx > 0.3389121
+	pmonths > 0.0007340674
+	->  class 2  [0.683]
+
+Rule 14/6: (309.4/118.4, lift 1.3)
+	euribor3m <= 0.1609612
+	pmonths > 0.0001001001
+	pmonths <= 0.0007340674
+	->  class 2  [0.616]
+
+Default class: 1
+
+-----  Trial 15:  -----
+
+Rules:
+
+Rule 15/1: (27.7/4.3, lift 1.6)
+	poutcome = 1
+	euribor3m > 0.09408297
+	nr.employed <= 0.4257089
+	->  class 1  [0.820]
+
+Rule 15/2: (16.9/2.7, lift 1.6)
+	default = 2
+	poutcome = 3
+	nr.employed <= 0.4257089
+	->  class 1  [0.805]
+
+Rule 15/3: (18.5/3.9, lift 1.5)
+	month = 1
+	poutcome = 1
+	nr.employed <= 0.4257089
+	->  class 1  [0.761]
+
+Rule 15/4: (274.6/115.4, lift 1.1)
+	marital = 2
+	schooling in {1, 3}
+	contact = 1
+	poutcome = 2
+	euribor3m <= 0.1428248
+	->  class 1  [0.579]
+
+Rule 15/5: (1323.8/611.8, lift 1.1)
+	contact = 2
+	poutcome = 2
+	->  class 1  [0.538]
+
+Rule 15/6: (4122.1/1951.6, lift 1.0)
+	month in {1, 3}
+	previous <= 0.1666667
+	nr.employed > 0.4257089
+	->  class 1  [0.527]
+
+Rule 15/7: (38.3/7.5, lift 1.6)
+	marital = 2
+	contact = 1
+	poutcome = 2
+	euribor3m > 0.1428248
+	nr.employed <= 0.4257089
+	->  class 2  [0.788]
+
+Rule 15/8: (46.5/16.5, lift 1.3)
+	previous > 0.1666667
+	nr.employed > 0.4257089
+	->  class 2  [0.639]
+
+Rule 15/9: (120.6/44, lift 1.3)
+	month = 2
+	nr.employed > 0.4257089
+	->  class 2  [0.633]
+
+Rule 15/10: (135.4/52, lift 1.2)
+	marital = 2
+	schooling = 2
+	contact = 1
+	poutcome = 2
+	nr.employed <= 0.4257089
+	->  class 2  [0.614]
+
+Rule 15/11: (384.5/158.6, lift 1.2)
+	marital in {1, 3}
+	contact = 1
+	poutcome = 2
+	nr.employed <= 0.4257089
+	->  class 2  [0.587]
+
+Rule 15/12: (346.3/145.6, lift 1.2)
+	default = 1
+	poutcome = 3
+	nr.employed <= 0.4257089
+	->  class 2  [0.579]
+
+Rule 15/13: (1354.9/639.5, lift 1.1)
+	euribor3m <= 0.09408297
+	->  class 2  [0.528]
+
+Default class: 1
+
+-----  Trial 16:  -----
+
+Rules:
+
+Rule 16/1: (805.5/376.7, lift 1.1)
+	poutcome = 1
+	->  class 1  [0.532]
+
+Rule 16/2: (1312.3/628, lift 1.0)
+	contact = 2
+	poutcome = 2
+	->  class 1  [0.521]
+
+Rule 16/3: (63.9/20.3, lift 1.4)
+	profession in {1, 2, 4}
+	contact = 2
+	month = 2
+	poutcome = 2
+	nr.employed > 0.1058601
+	->  class 2  [0.677]
+
+Rule 16/4: (237.4/86.8, lift 1.3)
+	custAge <= 0.2641736
+	poutcome = 2
+	cons.price.idx > 0.7848792
+	->  class 2  [0.633]
+
+Rule 16/5: (3360.2/1635.9, lift 1.0)
+	contact = 1
+	poutcome = 2
+	->  class 2  [0.513]
+
+Default class: 2
+
+-----  Trial 17:  -----
+
+Rules:
+
+Default class: 1
+
+*** boosting reduced to 17 trials since last classifier is very inaccurate
+
+
+Evaluation on training data (5932 cases):
+
+Trial	        Rules     
+-----	  ----------------
+	    No      Errors
+
+   0	     7  581( 9.8%)
+   1	     4  771(13.0%)
+   2	     6  808(13.6%)
+   3	     8  994(16.8%)
+   4	    15  736(12.4%)
+   5	    14 1146(19.3%)
+   6	     9  800(13.5%)
+   7	    14 1730(29.2%)
+   8	     4  611(10.3%)
+   9	     3  719(12.1%)
+  10	     7  841(14.2%)
+  11	    16 3017(50.9%)
+  12	     6  813(13.7%)
+  13	     3 1608(27.1%)
+  14	     6  612(10.3%)
+  15	    13  695(11.7%)
+  16	     5 3143(53.0%)
+boost	        519( 8.7%)   <<
+
+
+	   (a)   (b)    <-classified as
+	  ----  ----
+	  5156   104    (a): class 1
+	   415   257    (b): class 2
+
+
+	Attribute usage:
+
+	100.00%	custAge
+	100.00%	schooling
+	100.00%	month
+	100.00%	poutcome
+	100.00%	euribor3m
+	100.00%	nr.employed
+	100.00%	pmonths
+	 99.68%	cons.conf.idx
+	 97.49%	campaign
+	 96.43%	marital
+	 93.44%	contact
+	 87.17%	previous
+	 85.55%	profession
+	 76.84%	default
+	 28.91%	pastEmail
+	 22.94%	cons.price.idx
+
+
+Time: 0.6 secs
+
